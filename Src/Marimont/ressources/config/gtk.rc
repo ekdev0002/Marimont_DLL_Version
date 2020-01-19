@@ -1,0 +1,23 @@
+/*pixmap_path "./"
+ 
+style "Windows"
+{
+	bg_pixmap[NORMAL] = "workspace.jpg"
+	bg[NORMAL] = "#CC9664"
+	fg[NORMAL] = "yellow"
+	fg[INSENSITIVE] = "white"
+}
+class "GtkWindow" style "Windows"
+*/
+
+pixmap_path "./ressources/images/"
+
+style "MonStyle"
+{
+    bg_pixmap[NORMAL] = "workspace1.jpg"
+	GtkWidget::width=838
+	GtkWidget::height=556
+	
+		
+}
+class "GtkWindow" style "MonStyle"

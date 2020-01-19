@@ -1,0 +1,17 @@
+
+pixmap_path "./ressources/images/"
+
+style "MonStyle"
+{
+    bg_pixmap[NORMAL] = "accueil.jpg"
+	GtkWidget::width=838
+	GtkWidget::height=556
+	GtkButton::default_border = {50, 50, 50, 50}
+	GtkButton::default_outside_border = {50, 50, 50, 50} # a border around the close button
+	GtkButton::default_spacing = 10
+	GtkButton::focus-line-width = 1
+	GtkButton::focus-padding = 0
+	
+		
+}
+class "GtkWindow" style "MonStyle"

@@ -1,0 +1,24 @@
+EXPORTS
+    A_to_Mat @1
+    DllMain@12 @2
+    Marimont @3
+    SomeFunction @4
+    afficher @5
+    ajouter_a @6
+    ajouter_cell @7
+    ajouter_ligne @8
+    copGtoH @9
+    correct @10
+    initialiser @11
+    lireGraphe @12
+    modifier @13
+    point_entree @14
+    point_sortie @15
+    reunion @16
+    sous_graphe @17
+    supp_caract @18
+    supp_col @19
+    supp_ligne @20
+    supprime @21
+    videE @22
+    videH @23

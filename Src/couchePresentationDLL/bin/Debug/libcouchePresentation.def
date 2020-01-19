@@ -1,0 +1,14 @@
+EXPORTS
+    DllMain@12 @1
+    Resolution @2
+    SomeFunction @3
+    accueil @4
+    affich_resul @5
+    button_initialiser @6
+    button_ok @7
+    continuer @8
+    demarrage @9
+    lancerApplication @10
+    on_quitter_btn @11
+    on_quitter_icon @12
+    traitement @13
